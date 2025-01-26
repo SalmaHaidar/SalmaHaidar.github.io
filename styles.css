@@ -60,6 +60,12 @@ main {
 .left-section p {
     text-align: justify; /* Evenly space out the "About Me" paragraph */
 }
+.left-section ul {
+    padding-left: 20px; /* Align the lists with the titles */
+}
+.right-section ul {
+    padding-left: 20px; /* Align the list with the title */
+}
 a {
     color: #043e54; /* Updated hyperlink color */
     text-decoration: none;
