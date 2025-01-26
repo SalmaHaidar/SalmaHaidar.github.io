@@ -4,6 +4,7 @@ body {
     align-items: center;
     margin: 0;
     font-family: Arial, sans-serif;
+    color: #043e54; /* Updated font color */
 }
 header {
     display: flex;
@@ -11,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f4f4f4;
+    background: linear-gradient(90deg, #02968a 0%, #94DEA5 100%); /* Updated header background with gradient */
 }
 .profile-pic {
     width: 150px;
@@ -36,6 +37,13 @@ main {
 }
 .left-section, .right-section {
     padding: 20px;
+}
+a {
+    color: #043e54; /* Updated hyperlink color */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 @media (min-width: 768px) {
     main {
