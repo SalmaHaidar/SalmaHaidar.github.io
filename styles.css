@@ -1,3 +1,6 @@
+html {
+    overflow-x: hidden; /* Remove horizontal scrollbar */
+}
 body {
     display: flex;
     flex-direction: column;
@@ -5,6 +8,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #043e54; /* Updated font color */
+    overflow-x: hidden; /* Remove horizontal scrollbar */
 }
 header {
     display: flex;
@@ -13,6 +17,7 @@ header {
     align-items: center;
     padding: 20px;
     background: linear-gradient(90deg, #02968a 0%, #94DEA5 100%); /* Updated header background with gradient */
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 .profile-pic {
     width: 150px;
@@ -28,6 +33,7 @@ header {
 }
 .header-text {
     margin-right: 20px;
+    max-width: calc(100% - 190px); /* Ensure header text does not cause overflow */
 }
 header a {
     color: #043e54; /* Match the font color */
@@ -45,9 +51,11 @@ main {
     flex-direction: column;
     width: 100%;
     padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 .left-section, .right-section {
     padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width */
 }
 .left-section p {
     text-align: justify; /* Evenly space out the "About Me" paragraph */
