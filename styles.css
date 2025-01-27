@@ -66,6 +66,9 @@ main {
 .right-section ul {
     padding-left: 20px; /* Align the list with the title */
 }
+.right-section ul li {
+    margin-bottom: 15px;
+}
 a {
     color: #043e54; /* Updated hyperlink color */
     text-decoration: none;
